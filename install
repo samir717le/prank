@@ -1,4 +1,5 @@
 pkg install wget php git -y
+pkg install termux-am w3m -y
 git clone https://github.com/samir717le/prank.git
 cd prank
 php -S localhost:8080
