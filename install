@@ -1,1 +1,4 @@
-pkg install wget php -y
+pkg install wget php git -y
+git clone https://github.com/samir717le/prank.git
+cd prank
+php -S localhost:8080
